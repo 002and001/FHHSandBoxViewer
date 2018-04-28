@@ -1,9 +1,9 @@
 # FHHSandBoxViewer
 View your App's SandBox and shares Documents or Files you selected.
 
+FHHSandBoxViewer is a lite Compoment,you can use it as follow gif shows:
 
 ![gif](https://upload-images.jianshu.io/upload_images/2351207-6955703981bbca2b.gif?imageMogr2/auto-orient/strip)
-FHHSandBoxViewer is a lite Compoment,you use it like 
 
 #### How to get started?
 
