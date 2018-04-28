@@ -41,13 +41,6 @@ Then add code in one Controller
     }];
 
 `
-##### Attention: 
- If you use the System NavigationBar you might need to set true for the navigationBar's isHiiden and translucent before you push sandBoxViewerVC,like
-`
-	[self.navigationController.navigationBar setHidden:YES];
-	[self.navigationController.navigationBar setTranslucent:YES];
-	[self.navigationController pushViewController:sandBoxViewerVC animated:YES];
-`
 
 ##### Tip: 
  If you are not satisied with existing functions,you could make a fork then do some changes you like.
