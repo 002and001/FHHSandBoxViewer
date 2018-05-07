@@ -67,7 +67,7 @@ private let kMargin: CGFloat = 15.0
         fhh_navigationBar?.addSubview(fhh_navLeftButton!)
         fhh_navLeftButton?.contentHorizontalAlignment = .left
         if navLeftButtonIcon == "" || navLeftButtonIcon == nil {
-            fhh_navLeftButton?.setTitle("return", for: .normal)
+            fhh_navLeftButton?.setTitle("back", for: .normal)
             fhh_navLeftButton?.setTitleColor(fhh_rgb(40, 40, 40), for: .normal)
             fhh_navLeftButton?.setTitleColor(fhh_rgb(179, 186, 191), for: .highlighted)
         } else {

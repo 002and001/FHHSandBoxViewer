@@ -66,7 +66,7 @@ import UIKit
             self.tableView.refresh(viewModelArray: self.viewModelArray)
         }
         vc.completionWithItemsHandler = completionWithItemsHandler
-        UIApplication.shared.keyWindow?.rootViewController?.present(vc, animated: true, completion:nil)
+        self.present(vc, animated: true, completion:nil)
     }
     
     // MARK:Functions
