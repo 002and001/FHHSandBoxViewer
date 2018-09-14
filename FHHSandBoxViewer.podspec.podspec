@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/002and001/FHHSandBoxViewer"
   s.license      = "MIT"
   s.author             = { "002and001" => "xxewz1@163.com" }
-  s.source       = { :git => "https://github.com/002and001/FHHSandBoxViewer", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/002and001/FHHSandBoxViewer.git", :tag => "#{s.version}" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.requires_arc = true
 
