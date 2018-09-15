@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc class FHHSandboxViewController: UIViewController, FHHSandboxAccessoryViewDelegate {
+@objc public class FHHSandboxViewController: UIViewController, FHHSandboxAccessoryViewDelegate {
     
     // MARK:Properties
     var path: String
@@ -17,11 +17,11 @@ import UIKit
     var viewModelArray = [FHHSandboxViewModel]()
     let fileManager = FileManager.default
     
-    @objc class var defaultNavTitle: String {
+    @objc public class var defaultNavTitle: String {
         return "Sandbox"
     }
     
-    @objc class var defaultPath: String {
+    @objc public class var defaultPath: String {
         var path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.libraryDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)[0]
         path = path.replacingOccurrences(of: "/Library", with: "")
         if isSimulator() {
@@ -37,12 +37,12 @@ import UIKit
         super.init(nibName: nil, bundle: nil)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     // MARK:LifeCircle
-    override func viewDidLoad() {
+  override public func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
