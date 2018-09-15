@@ -15,12 +15,12 @@ private var kNavRightButtonKey: String = "kFHHNavLeftButtonKey"
 private var kEnterType: String = "kFHHEnterType"
 private let kMargin: CGFloat = 15.0
 
-@objc enum FHHEnterType: NSInteger {
+@objc public enum FHHEnterType: NSInteger {
     case push = 0
     case present = 1
 }
 
-@objc extension UIViewController {
+@objc public extension UIViewController {
     
     @objc public func fhh_setNavigationBar(title: String?) {
         self.fhh_setNavigationBar(title: title, navLeftButtonIcon: nil, navRightButtonIcon: nil, navRightButtonTitle: nil)
@@ -47,7 +47,7 @@ private let kMargin: CGFloat = 15.0
     }
     
     // MARK:HandleViews
-    func fhh_configNavigationBar() {
+    public func fhh_configNavigationBar() {
         if fhh_navigationBar != nil {
             fhh_navigationBar?.removeFromSuperview()
         }
@@ -57,7 +57,7 @@ private let kMargin: CGFloat = 15.0
         fhh_navigationBar?.backgroundColor = UIColor.init(red: 250 / 255.0, green: 250 / 255.0, blue: 250 / 255.0, alpha: 1.0)
     }
     
-    func fhh_configNavLeftButton(navLeftButtonIcon: String?) {
+    public func fhh_configNavLeftButton(navLeftButtonIcon: String?) {
         self.fhh_initLeftButton(navLeftButtonIcon: navLeftButtonIcon)
         self.fhh_configLeftButtonEdgeInsets(navLeftButtonIcon: navLeftButtonIcon)
     }
@@ -196,7 +196,7 @@ private let kMargin: CGFloat = 15.0
     }
     
     // MARK:Properties
-    var fhh_navigationBar: UIView? {
+    public var fhh_navigationBar: UIView? {
         get {
             return (objc_getAssociatedObject(self, &kNavigationBarKey) as? UIView)
         }
@@ -205,7 +205,7 @@ private let kMargin: CGFloat = 15.0
         }
     }
     
-    var fhh_navMiddleButton: UIButton? {
+    public var fhh_navMiddleButton: UIButton? {
         get {
             return (objc_getAssociatedObject(self, &kNavMiddleButtonKey) as? UIButton)
         }
@@ -214,7 +214,7 @@ private let kMargin: CGFloat = 15.0
         }
     }
     
-    var fhh_navLeftButton: UIButton? {
+    public var fhh_navLeftButton: UIButton? {
         get {
             return (objc_getAssociatedObject(self, &kNavLeftButtonKey) as? UIButton)
         }
@@ -223,7 +223,7 @@ private let kMargin: CGFloat = 15.0
         }
     }
     
-    var fhh_navRightButton: UIButton? {
+    public var fhh_navRightButton: UIButton? {
         get {
             return (objc_getAssociatedObject(self, &kNavRightButtonKey) as? UIButton)
         }
@@ -232,7 +232,7 @@ private let kMargin: CGFloat = 15.0
         }
     }
     
-    var fhh_enterType: FHHEnterType {
+    public var fhh_enterType: FHHEnterType {
         get {
             let enterTypeRawValue = objc_getAssociatedObject(self, &kEnterType)
             if enterTypeRawValue != nil {

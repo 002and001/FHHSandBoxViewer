@@ -12,15 +12,15 @@
 		2509E7CD209461D80025E698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2509E7CB209461D80025E698 /* Main.storyboard */; };
 		2509E7CF209461D90025E698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2509E7CE209461D90025E698 /* Assets.xcassets */; };
 		2509E7D2209461D90025E698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2509E7D0209461D90025E698 /* LaunchScreen.storyboard */; };
-		2509E7E3209462020025E698 /* FHHSandboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7DA209462020025E698 /* FHHSandboxTableViewCell.swift */; };
-		2509E7E4209462020025E698 /* UIViewController+FHHCustomerNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7DB209462020025E698 /* UIViewController+FHHCustomerNavBar.swift */; };
-		2509E7E5209462020025E698 /* FHHSandboxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7DC209462020025E698 /* FHHSandboxViewModel.swift */; };
-		2509E7E6209462020025E698 /* FHHSandboxTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7DD209462020025E698 /* FHHSandboxTableView.swift */; };
-		2509E7E7209462020025E698 /* UIView+FHHFrmae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7DE209462020025E698 /* UIView+FHHFrmae.swift */; };
-		2509E7E8209462020025E698 /* FFHCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7DF209462020025E698 /* FFHCommon.swift */; };
-		2509E7E9209462020025E698 /* FHHSandboxAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7E0209462020025E698 /* FHHSandboxAccessoryView.swift */; };
-		2509E7EA209462020025E698 /* UIDevice+FHH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7E1209462020025E698 /* UIDevice+FHH.swift */; };
-		2509E7EB209462020025E698 /* FHHSandboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509E7E2209462020025E698 /* FHHSandboxViewController.swift */; };
+		25882AC5214D01B2009EA2E4 /* FHHSandboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882ABC214D01B2009EA2E4 /* FHHSandboxTableViewCell.swift */; };
+		25882AC6214D01B2009EA2E4 /* UIViewController+FHHCustomerNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882ABD214D01B2009EA2E4 /* UIViewController+FHHCustomerNavBar.swift */; };
+		25882AC7214D01B2009EA2E4 /* FHHSandboxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882ABE214D01B2009EA2E4 /* FHHSandboxViewModel.swift */; };
+		25882AC8214D01B2009EA2E4 /* FHHSandboxTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882ABF214D01B2009EA2E4 /* FHHSandboxTableView.swift */; };
+		25882AC9214D01B2009EA2E4 /* UIView+FHHFrmae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882AC0214D01B2009EA2E4 /* UIView+FHHFrmae.swift */; };
+		25882ACA214D01B2009EA2E4 /* FFHCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882AC1214D01B2009EA2E4 /* FFHCommon.swift */; };
+		25882ACB214D01B2009EA2E4 /* FHHSandboxAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882AC2214D01B2009EA2E4 /* FHHSandboxAccessoryView.swift */; };
+		25882ACC214D01B2009EA2E4 /* UIDevice+FHH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882AC3214D01B2009EA2E4 /* UIDevice+FHH.swift */; };
+		25882ACD214D01B2009EA2E4 /* FHHSandboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25882AC4214D01B2009EA2E4 /* FHHSandboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +31,15 @@
 		2509E7CE209461D90025E698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2509E7D1209461D90025E698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2509E7D3209461D90025E698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2509E7DA209462020025E698 /* FHHSandboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxTableViewCell.swift; sourceTree = "<group>"; };
-		2509E7DB209462020025E698 /* UIViewController+FHHCustomerNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FHHCustomerNavBar.swift"; sourceTree = "<group>"; };
-		2509E7DC209462020025E698 /* FHHSandboxViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxViewModel.swift; sourceTree = "<group>"; };
-		2509E7DD209462020025E698 /* FHHSandboxTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxTableView.swift; sourceTree = "<group>"; };
-		2509E7DE209462020025E698 /* UIView+FHHFrmae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FHHFrmae.swift"; sourceTree = "<group>"; };
-		2509E7DF209462020025E698 /* FFHCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFHCommon.swift; sourceTree = "<group>"; };
-		2509E7E0209462020025E698 /* FHHSandboxAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxAccessoryView.swift; sourceTree = "<group>"; };
-		2509E7E1209462020025E698 /* UIDevice+FHH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+FHH.swift"; sourceTree = "<group>"; };
-		2509E7E2209462020025E698 /* FHHSandboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxViewController.swift; sourceTree = "<group>"; };
+		25882ABC214D01B2009EA2E4 /* FHHSandboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxTableViewCell.swift; sourceTree = "<group>"; };
+		25882ABD214D01B2009EA2E4 /* UIViewController+FHHCustomerNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FHHCustomerNavBar.swift"; sourceTree = "<group>"; };
+		25882ABE214D01B2009EA2E4 /* FHHSandboxViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxViewModel.swift; sourceTree = "<group>"; };
+		25882ABF214D01B2009EA2E4 /* FHHSandboxTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxTableView.swift; sourceTree = "<group>"; };
+		25882AC0214D01B2009EA2E4 /* UIView+FHHFrmae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FHHFrmae.swift"; sourceTree = "<group>"; };
+		25882AC1214D01B2009EA2E4 /* FFHCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFHCommon.swift; sourceTree = "<group>"; };
+		25882AC2214D01B2009EA2E4 /* FHHSandboxAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxAccessoryView.swift; sourceTree = "<group>"; };
+		25882AC3214D01B2009EA2E4 /* UIDevice+FHH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+FHH.swift"; sourceTree = "<group>"; };
+		25882AC4214D01B2009EA2E4 /* FHHSandboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHHSandboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		2509E7C6209461D70025E698 /* Demo-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				2509E7D9209462020025E698 /* FHHSandBoxViewer */,
+				25882ABB214D01B2009EA2E4 /* FHHSandBoxViewer */,
 				2509E7C7209461D70025E698 /* AppDelegate.swift */,
 				2509E7C9209461D80025E698 /* ViewController.swift */,
 				2509E7CB209461D80025E698 /* Main.storyboard */,
@@ -83,20 +83,21 @@
 			path = "Demo-Swift";
 			sourceTree = "<group>";
 		};
-		2509E7D9209462020025E698 /* FHHSandBoxViewer */ = {
+		25882ABB214D01B2009EA2E4 /* FHHSandBoxViewer */ = {
 			isa = PBXGroup;
 			children = (
-				2509E7DA209462020025E698 /* FHHSandboxTableViewCell.swift */,
-				2509E7DB209462020025E698 /* UIViewController+FHHCustomerNavBar.swift */,
-				2509E7DC209462020025E698 /* FHHSandboxViewModel.swift */,
-				2509E7DD209462020025E698 /* FHHSandboxTableView.swift */,
-				2509E7DE209462020025E698 /* UIView+FHHFrmae.swift */,
-				2509E7DF209462020025E698 /* FFHCommon.swift */,
-				2509E7E0209462020025E698 /* FHHSandboxAccessoryView.swift */,
-				2509E7E1209462020025E698 /* UIDevice+FHH.swift */,
-				2509E7E2209462020025E698 /* FHHSandboxViewController.swift */,
+				25882ABC214D01B2009EA2E4 /* FHHSandboxTableViewCell.swift */,
+				25882ABD214D01B2009EA2E4 /* UIViewController+FHHCustomerNavBar.swift */,
+				25882ABE214D01B2009EA2E4 /* FHHSandboxViewModel.swift */,
+				25882ABF214D01B2009EA2E4 /* FHHSandboxTableView.swift */,
+				25882AC0214D01B2009EA2E4 /* UIView+FHHFrmae.swift */,
+				25882AC1214D01B2009EA2E4 /* FFHCommon.swift */,
+				25882AC2214D01B2009EA2E4 /* FHHSandboxAccessoryView.swift */,
+				25882AC3214D01B2009EA2E4 /* UIDevice+FHH.swift */,
+				25882AC4214D01B2009EA2E4 /* FHHSandboxViewController.swift */,
 			);
-			path = FHHSandBoxViewer;
+			name = FHHSandBoxViewer;
+			path = ../../FHHSandBoxViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,17 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2509E7E6209462020025E698 /* FHHSandboxTableView.swift in Sources */,
+				25882AC8214D01B2009EA2E4 /* FHHSandboxTableView.swift in Sources */,
 				2509E7CA209461D80025E698 /* ViewController.swift in Sources */,
-				2509E7EA209462020025E698 /* UIDevice+FHH.swift in Sources */,
-				2509E7E5209462020025E698 /* FHHSandboxViewModel.swift in Sources */,
-				2509E7E4209462020025E698 /* UIViewController+FHHCustomerNavBar.swift in Sources */,
-				2509E7E7209462020025E698 /* UIView+FHHFrmae.swift in Sources */,
-				2509E7EB209462020025E698 /* FHHSandboxViewController.swift in Sources */,
+				25882ACC214D01B2009EA2E4 /* UIDevice+FHH.swift in Sources */,
+				25882AC7214D01B2009EA2E4 /* FHHSandboxViewModel.swift in Sources */,
+				25882AC6214D01B2009EA2E4 /* UIViewController+FHHCustomerNavBar.swift in Sources */,
+				25882AC9214D01B2009EA2E4 /* UIView+FHHFrmae.swift in Sources */,
+				25882ACD214D01B2009EA2E4 /* FHHSandboxViewController.swift in Sources */,
 				2509E7C8209461D70025E698 /* AppDelegate.swift in Sources */,
-				2509E7E9209462020025E698 /* FHHSandboxAccessoryView.swift in Sources */,
-				2509E7E3209462020025E698 /* FHHSandboxTableViewCell.swift in Sources */,
-				2509E7E8209462020025E698 /* FFHCommon.swift in Sources */,
+				25882ACB214D01B2009EA2E4 /* FHHSandboxAccessoryView.swift in Sources */,
+				25882AC5214D01B2009EA2E4 /* FHHSandboxTableViewCell.swift in Sources */,
+				25882ACA214D01B2009EA2E4 /* FFHCommon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
