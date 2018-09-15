@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.frameworks   = "Foundation", "UIKit"
   s.source_files  = "FHHSandBoxViewer/**/*.swift"
-  s.module_map = 'Support Files/FHHSandBoxViewer.modulemap'
   s.requires_arc = true
 
 end
