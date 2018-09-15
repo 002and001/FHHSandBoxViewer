@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc class FHHSandboxTableViewCell: UITableViewCell {
+@objc public class FHHSandboxTableViewCell: UITableViewCell {
     
     // MARK:Properties
     var viewModel: FHHSandboxViewModel?
@@ -16,7 +16,7 @@ import UIKit
         return "kSandboxTableViewCell"
     }
     
-    override func awakeFromNib() {
+  override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
