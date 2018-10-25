@@ -60,7 +60,7 @@ import UIKit
     func SandboxAccessory(_: FHHSandboxAccessoryView, didClickSharedButton: UIButton) {
         let shareURLArray = self.getSelectedURL()
         let vc = UIActivityViewController.init(activityItems: shareURLArray, applicationActivities: nil)
-        let completionWithItemsHandler = { (type: UIActivityType?, isSucceed: Bool?,array: Array<Any>?, error: Error?)  in
+        let completionWithItemsHandler = { (type: UIActivity.ActivityType?, isSucceed: Bool?,array: Array<Any>?, error: Error?)  in
             FHHLog("error:\(String(describing: error?.localizedDescription))")
             self.resetToUnSelectState()
             self.tableView.refresh(viewModelArray: self.viewModelArray)
@@ -193,7 +193,7 @@ import UIKit
     // MARK:LazyLoads
     private lazy var tableView: FHHSandboxTableView = {
         let frame = CGRect.init(x: 0, y: UIDevice.fhh_kNavigationBarHeight(), width: UIDevice.fhh_kScreenW(), height: UIDevice.fhh_kScreenH() - UIDevice.fhh_kNavigationBarHeight() - self.accessoryView.fhh_height)
-        let tableView = FHHSandboxTableView.init(frame: frame, style: UITableViewStyle.grouped)
+        let tableView = FHHSandboxTableView.init(frame: frame, style: UITableView.Style.grouped)
         return tableView
     }()
     

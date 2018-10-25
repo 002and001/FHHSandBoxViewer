@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FHHSandBoxViewer"
-  s.version      = "1.0.0"
+  s.version      = "1.0.4"
   s.summary      = "沙盒查看器，可以浏览App的沙盒文件和使用AirDrop进行分享"
   s.homepage     = "https://github.com/002and001/FHHSandBoxViewer"
   s.license      = "MIT"

@@ -81,9 +81,9 @@ private let kMargin: CGFloat = 15.0
     
     private func fhh_configLeftButtonEdgeInsets(navLeftButtonIcon: String?) {
         if navLeftButtonIcon != nil && navLeftButtonIcon != "" {
-            fhh_navLeftButton?.imageEdgeInsets = UIEdgeInsetsMake(20, kMargin, 0, 0)
+            fhh_navLeftButton?.imageEdgeInsets = UIEdgeInsets(top: 20, left: kMargin, bottom: 0, right: 0)
         } else {
-            fhh_navLeftButton?.titleEdgeInsets = UIEdgeInsetsMake(20, kMargin, 0, -kMargin)
+            fhh_navLeftButton?.titleEdgeInsets = UIEdgeInsets(top: 20, left: kMargin, bottom: 0, right: -kMargin)
         }
         
     }
@@ -121,8 +121,8 @@ private let kMargin: CGFloat = 15.0
         let imageLeftInset = (fhh_navRightButton?.fhh_width)! - (imageSize?.width)! - kMargin
         let titleLeftInset = (fhh_navRightButton?.fhh_width)! - (titleSize?.width)! - kMargin + 2
         
-        fhh_navRightButton?.imageEdgeInsets = UIEdgeInsetsMake(0, imageLeftInset, 0, -imageLeftInset)
-        fhh_navRightButton?.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, titleLeftInset)
+        fhh_navRightButton?.imageEdgeInsets = UIEdgeInsets(top: 0, left: imageLeftInset, bottom: 0, right: -imageLeftInset)
+        fhh_navRightButton?.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: titleLeftInset)
     }
     
     @objc func fhh_reConfigNavRightButton() {
